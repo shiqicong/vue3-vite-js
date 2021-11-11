@@ -11,11 +11,16 @@ This template should help get you started developing with Vue 3 in Vite. The tem
     在正式开发之前，我推荐使用 VS Code 的官方扩展插件 Volar，这个插件给 Vue 3 提供了全面的开发支持。我们访问 Volar（https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar） 的地址，直接点击 Install，就会启动 VS Code 并且安装。然后使用 Chrome 访问 Vue 3 调试插件的地址（https://chrome.google.com/webstore/detail/vuejs-devtools/ljjemllljcmogpfapbkkighbhhppjdbg?hl=en） ，可以帮助我们在浏览器里高效的调试页面。
 
 ## 项目创建
+
     npm init @vitejs/app
+
 ## 安装依赖/项目启动
+
   npm install
   npm run dev
+
 ## 目录结构
+```
 .
 ├── README.md
 ├── index.html           入口文件
@@ -32,3 +37,4 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 │   └── utils          工具函数
 │   └── main.js        入口
 └── vite.config.js     vite 工程化配置文件
+```
