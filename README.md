@@ -16,8 +16,7 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 
 ## 安装依赖/项目启动
 
-  npm install
-  npm run dev
+  npm install / npm run dev
 
 ## 目录结构
 ```
@@ -37,4 +36,5 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 │   └── utils          工具函数
 │   └── main.js        入口
 └── vite.config.js     vite 工程化配置文件
+
 ```
