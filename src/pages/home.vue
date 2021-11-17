@@ -19,6 +19,8 @@
     <!-- <Rate :value="score" theme="red" @update-rate="update"></Rate> -->
     <!-- v-model的形式 -->
       <Rate v-model="score" theme="red"></Rate>
+      🌹 vuex (手动封装迷你vux实现点击数据累加)
+      <Count />
 </template>
 
 <script setup>
@@ -29,6 +31,7 @@ import { ref } from 'vue'
 import TodoList from '../components/TodoList.vue'
 import {getStart} from '../utils/index'
 import Rate from '../components/Rate.vue'
+import Count from '../components/Count.vue'
 
 // 组合APi的使用
 import {useMouse} from '../utils/index'
