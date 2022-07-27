@@ -18,7 +18,7 @@
     <!-- 正常的组件调用 -->
     <!-- <Rate :value="score" theme="red" @update-rate="update"></Rate> -->
     <!-- v-model的形式 -->
-      <Rate v-model="score" theme="red"></Rate>
+      <Rate v-model="score" theme="red" />
       🌹 vuex (手动封装迷你vux实现点击数据累加)
       <Count />
 </template>
